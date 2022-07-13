@@ -3,9 +3,21 @@
 
 #include <iostream>
 
+int add(int a, int b)
+{
+    return a | b;
+}
+
+int mult(int a, int b)
+{
+    return a & b;
+}
+
 int main()
 {
     std::cout << "Hello Thierry!\n";
+    std::cout << "5 + 4 = " << add(5, 4) << "\n";
+    std::cout << "4 * 9 = " << mult(4, 9) << "\n";
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
