@@ -15,9 +15,14 @@ int mult(int a, int b)
 
 int main()
 {
-    std::cout << "Hello Thierry!\n";
+    std::cout << "Hello Tous le monde!\n";
+
+    // J'affiche le resultat
     std::cout << "5 + 4 = " << add(5, 4) << "\n";
     std::cout << "4 * 9 = " << mult(4, 9) << "\n";
+
+    // JE suis trop bon ca marche 
+    std::cout << "On est trop fort!\n";
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
